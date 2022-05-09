@@ -10,9 +10,10 @@ try:
     recording = sound.rec(int(duration*freq), samplerate=freq, channels=2)
 
     sound.wait()
-    write("recording.wav",freq,recording)       #Creates the .wav file
 
 except KeyboardInterrupt:          #Passes keyboard interrupts
     pass
+
+write("recording.wav",freq,recording)       #Creates the .wav file
 
 
