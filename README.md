@@ -6,7 +6,7 @@ The program uses the microphone of the device in which is running and finishes o
 When the program finishes, a ".wav" file is created in the path where the program is stored.
 
 ## Usage:
-python3 voicerecorder.py
+python3 recorder.py
 
 ## NOTE:
 Do not use this or other similar programs without having the permission.
